@@ -28,7 +28,7 @@ git clone https://github.com/sidhant48/employee-dashboard.git
 
 2. Navigate to the folder
 
-cd employee-manager
+cd employee-dashboard
 
 3. Install dependencies:
 
