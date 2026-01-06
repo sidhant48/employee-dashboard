@@ -1,16 +1,41 @@
-# React + Vite
+# Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Employee Management Dashboard** built with **React JS** and **Material UI**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Secure Access: Password-protected login (Password: `dashboard`).
+- Full CRUD: Add, Edit, and Delete employees.
+- Implemented Filtering: Search by name and filter by Gender or Account Status simultaneously.
+- Modern UI: Used Material UI
+- Data Persistence: Uses Browser LocalStorage to save data between refreshes.
+- Print-Ready: Specialized CSS media queries for printing
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React JS
+- Material UI (MUI)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Run Project Locally
+
+1. Clone the repository
+
+git clone https://github.com/sidhant48/employee-dashboard.git
+
+2. Navigate to the folder
+
+cd employee-manager
+
+3. Install dependencies:
+
+npm install
+
+4. Start the development server:
+
+npm run dev
+
+5. Open the mentioned url in a browser
